@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(img.jpg);
+    background-position: center;
+}
+
+/*main content of the webpage*/
+.container{
+    width: 35%;
+    margin: auto;
+    overflow: hidden;
+    padding: 1rem;  /* rem is used to increase the size of given thing*/
+    background-color: rgb(252, 246, 246);
+    border-radius: 18px;
+    text-align: center;
+  margin-top: 97px;
+}
+/*for horizontal line*/
+hr{
+    width: 80%;
+    }
+    /*for fb button*/
+.fb{
+    padding:0.5rem 2rem ;
+    color: #fff;
+    background-color: rgb(19, 10, 107);
+    border: none;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+.container input{
+    padding: 6px;
+    width: 70%;
+  border-color: rgb(123, 123, 231);
+}
+/*adusting width of checkbox*/
+.container input[type="checkbox"]{
+    width: auto;
+}
+/*sign up button*/
+.btn{
+    width: auto;
+    padding:0.58rem;
+    background-color: rgb(21, 187, 85);
+    font-size: medium;
+    width: 50%;
+    border-radius: 7px;
+    border: none;
+    font-family: sans-serif;
+    
+}
+
+/*end*/
+/*happyyyy coding*/
